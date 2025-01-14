@@ -11,7 +11,7 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 160px 24px 160px;
+    padding: 19px 128px 19px 128px;
 }
 nav ul li{
     list-style: none;
@@ -19,12 +19,14 @@ nav ul li{
 .nav-title{
     font-size: 32px;
     font-weight: 700;
+    font-family: Fira Sans;
 }
 
 .btn-1{
     width: 116px;
     height: 52px;
     font-size: 18px;
+    font-family: Fira Sans;
     font-weight: 600;
     box-sizing: border-box;
     color: rgb(0, 106, 80);
@@ -34,30 +36,30 @@ nav ul li{
 }
 
 .hero{
-    width: 1280px;
-    height: 560px;
-    padding: 80px 100px 80px 100px;
+    width: 1228px;
+    height: 448px;
+    padding: 64px 80px 64px 80px;
     border-radius: 24px;
     background: rgb(198, 228, 214);
     justify-content: space-around;
     align-items: center;
     display: flex;
-    margin: 80px 100px;
+    margin: 64px 80px;
     margin-top: 20px;
 }
 .hero-sub-title{
     font-size: 24px;
     font-weight: 500;
+    font-family: Fira Sans;
     line-height: 29px;
     color: #0E0E0E80;
 
 }
 .hero-title{
-    width: 622px;
-    height: 201px;
-    font-size: 56px;
+    font-size: 60px;
     font-weight: 700;
     line-height: 67px;
+    font-family: Fira Sans;
 }
 
 .btn-2{
@@ -68,6 +70,7 @@ nav ul li{
     border: none;
     background: rgb(0, 106, 80);
     font-size: 16px;
+    font-family: Fira Sans;
     font-weight: 600;
     color: #FFFFFF;
 }
@@ -76,3 +79,55 @@ nav ul li{
     width: 474.03px;
     height: 400px;
 }
+
+/* main section style */
+.the-vision-of-future{
+    padding: 32px;
+    text-align: justify;
+    margin-left: 80px;
+
+
+    
+}
+.section-title{
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+.section-description{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* The Vision Of Future Container Style */
+.the-vision-of-future-container{
+    width: 410.67px;
+    height: 325px;
+    gap: 24;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);  
+}
+.container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.the-vision-of-future-title{
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    width: 346.67px;
+    height: 24px;
+    
+}
+
+.the-vision-of-future-description{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+
