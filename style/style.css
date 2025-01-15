@@ -41,8 +41,8 @@ nav ul li{
 }
 
 .hero{
-    width: 1113px;
-    height: 487px;
+    width: 1190px;
+    height: 560px;
     padding: 64px 80px 64px 80px;
     border-radius: 24px;
     background: rgb(198, 228, 214);
@@ -203,7 +203,7 @@ nav ul li{
 
 /* Info style */
 .info{
-    padding: 0 80px;
+    padding: 0 6%;
 
 }
 .info-title{
@@ -228,13 +228,13 @@ nav ul li{
     display: flex;
     gap: 32px;
     padding: 48px;
-    width: 1113px;
+    width: 1280px;
     height: 349px;
     margin-top: 32px;
     margin-bottom: 24px;
     border-radius: 24px;
     background: rgb(255, 255, 255);
-    margin-left: 128px;   
+     margin-left: 80px;  
 }
 
 .satellite-title{
@@ -273,6 +273,7 @@ nav ul li{
     text-align: center;
     width: 1280px;
     height: 464px;
+    padding-left: 80px;
     
 }
 
