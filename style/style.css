@@ -4,7 +4,11 @@ font-family: "Fira Sans", serif;
 *{
     margin: 0;
     padding: 0;
-    background-color: black;
+    visibility: hidden;
+    background: rgb(30, 30, 30);
+}
+body{
+    background-color: #f5f5f5;
 }
 
 nav{
@@ -99,14 +103,42 @@ nav ul li{
 }
 
 /* The Vision Of Future Container Style */
-.the-vision-of-future-container{
+.the-vision-of-future-container1{
     width: 410.67px;
     height: 325px;
     gap: 24;
     padding: 32px;
     box-sizing: border-box;
     border-radius: 16px;
-    background: rgba(84, 144, 245, 0.2);  
+    background: rgba(84, 144, 245, 0.2);
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    
+}
+.the-vision-of-future-container2{
+    width: 410.67px;
+    height: 325px;
+    gap: 24;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214); 
+    display: flex;   
+    justify-content: center;
+    align-items: center;  
+}
+.the-vision-of-future-container3{
+    width: 410.67px;
+    height: 325px;
+    gap: 24;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);  
+    display: flex;   
+    justify-content: center;
+    align-items: center; 
 }
 .container{
     display: flex;
@@ -130,6 +162,42 @@ nav ul li{
     font-size: 16px;
     font-weight: 400;
 }
+.btn-vision-1{
+    width: 139px;
+    height: 48px; 
+    padding: 10px 27px 10px 27px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(84, 144, 245);
+    font-size: 16px;
+    font-family: Fira Sans;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.btn-vision-2{
+    width: 139px;
+    height: 48px; 
+    padding: 10px 27px 10px 27px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(9, 161, 92);
+    font-size: 16px;
+    font-family: Fira Sans;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.btn-vision-3{
+    width: 139px;
+    height: 48px; 
+    padding: 10px 27px 10px 27px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(255, 194, 57);
+    font-size: 16px;
+    font-family: Fira Sans;
+    font-weight: 600;
+    color: #FFFFFF;
+}
 
 /* Info style */
 .info{
@@ -149,22 +217,23 @@ nav ul li{
 }
 
 /* satellite */
-/* .satellite-section{
-    background-color: #FFFFFF;
-    border-radius: 24px;
-    border: 1px;
-} */
+
  .sta-img{
     border-radius: 24px;
  }
 .satellite{
     display: flex;
     gap: 32px;
-    padding:0 80px;
+    padding: 48px;
+    width: 1113px;
+    height: 349px;
     margin-top: 32px;
     margin-bottom: 24px;
-    background-color: white;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    margin-left: 128px;   
 }
+
 .satellite-title{
     font-family: Fira Sans;
     font-size: 32px;
