@@ -273,7 +273,9 @@ nav ul li{
     text-align: center;
     width: 1280px;
     height: 464px;
+    
 }
+
 .donate-title{
     font-family: Fira Sans;
     font-size: 40px;
@@ -286,6 +288,10 @@ nav ul li{
     font-weight: 400;
     margin-bottom: 24px;
     color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-left: 80px;
 }
 .btn-tk{  
     width: 240px;
