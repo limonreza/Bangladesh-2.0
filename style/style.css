@@ -4,6 +4,7 @@ font-family: "Fira Sans", serif;
 *{
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
 nav{
@@ -130,3 +131,65 @@ nav ul li{
     font-weight: 400;
 }
 
+/* Info style */
+.info{
+    padding: 0 80px;
+
+}
+.info-title{
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    gap: 24px;
+}
+.info-description{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* satellite */
+/* .satellite-section{
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    border: 1px;
+} */
+ .sta-img{
+    border-radius: 24px;
+ }
+.satellite{
+    display: flex;
+    gap: 32px;
+    padding:0 80px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+    background-color: white;
+}
+.satellite-title{
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.satellite-date{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+.satellite-description{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-sta{
+    width: 139px;
+    height: 48px; 
+    padding: 10px 27px 10px 27px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(0, 106, 80);
+    font-size: 16px;
+    font-family: Fira Sans;
+    font-weight: 600;
+    color: #FFFFFF;
+}
